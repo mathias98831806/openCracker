@@ -1,0 +1,21 @@
+*
+{
+	-fx-font-family: "Segoe UI";
+}
+
+#downloadButton
+{
+	-fx-graphic: url("../icones/rocket16.png");
+}
+.button
+{
+	-fx-background-color: #515d73;
+	-fx-text-fill: white;
+	-fx-cursor: hand;
+}
+
+.button:hover
+{
+	-fx-background-color: #738093;
+}
+

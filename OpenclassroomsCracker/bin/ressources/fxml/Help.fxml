@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane stylesheets="@../css/projectStylesheets.css"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.aioschool.openclassroomscracker.HelpController">
+	<children>
+		<Pane id="helpPane">
+			<children>
+				<VBox prefHeight="350.0" prefWidth="598.0" spacing="10.0">
+					<children>
+						<Label text="AIDE">
+							<VBox.margin>
+								<Insets left="260.0" top="20.0" />
+							</VBox.margin>
+							<font>
+								<Font name="Cambria" size="30.0" />
+							</font>
+							<textFill>
+								<LinearGradient endX="1.0" endY="1.0">
+									<stops>
+										<Stop color="BLACK" />
+										<Stop color="WHITE" offset="1.0" />
+									</stops>
+								</LinearGradient>
+							</textFill>
+						</Label>
+						<Label text="OpenclassroomsCracker V1.0.1">
+							<VBox.margin>
+								<Insets left="20.0" top="20.0" />
+							</VBox.margin>
+							<font>
+								<Font size="14.0" />
+							</font>
+						</Label>
+						<Label
+							text="Pour télécharger une formation de openclassrooms aller dans l'onglet create project">
+							<VBox.margin>
+								<Insets left="20.0" right="50.0" />
+							</VBox.margin>
+							<font>
+								<Font size="14.0" />
+							</font>
+						</Label>
+						<Label
+							text="Suivez les instructions qui s'afficheront sur cette fenêtre">
+							<VBox.margin>
+								<Insets left="20.0" />
+							</VBox.margin>
+							<font>
+								<Font size="14.0" />
+							</font>
+						</Label>
+						<Label
+							text="Cliquer sur &quot;Télécharger&quot; et profitez">
+							<VBox.margin>
+								<Insets left="20.0" />
+							</VBox.margin>
+							<font>
+								<Font size="14.0" />
+							</font>
+						</Label>
+						<Label />
+						<Label text="Auteur : KALIPE Kossi Mathias"
+							textFill="#e83131">
+							<VBox.margin>
+								<Insets left="20.0" />
+							</VBox.margin>
+							<font>
+								<Font size="18.0" />
+							</font>
+						</Label>
+						<Label text="Email : kalipemathias4@gmail.com"
+							textFill="#e83131">
+							<VBox.margin>
+								<Insets left="20.0" />
+							</VBox.margin>
+							<font>
+								<Font size="18.0" />
+							</font>
+						</Label>
+						<Button mnemonicParsing="false"
+							onAction="#handleQuitterButtonAction" text="Quitter"
+							textAlignment="JUSTIFY" textFill="#233de1">
+							<VBox.margin>
+								<Insets left="510.0" top="2.0" />
+							</VBox.margin>
+							<font>
+								<Font name="Constantia" size="18.0" />
+							</font>
+						</Button>
+					</children>
+				</VBox>
+			</children>
+			<opaqueInsets>
+				<Insets />
+			</opaqueInsets>
+		</Pane>
+	</children>
+</AnchorPane>

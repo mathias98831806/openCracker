@@ -1,0 +1,22 @@
+*
+{
+	-fx-background-color: #dfdfdd;
+	-fx-font-family: "Segoe UI";
+}
+
+.button
+{
+	-fx-background-color: #515d73;
+	-fx-text-fill: white;
+	-fx-cursor: hand;
+}
+#helpPane
+{
+	-fx-border-color: black;
+}
+
+#openButton
+{
+	-fx-graphic: url("../icones/folder16.png");
+}
+

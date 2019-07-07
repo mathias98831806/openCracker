@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1">
+	<top>
+		<!-- On inclut ici le fichier Toolbar.fxml -->
+		<fx:include source="Toolbar.fxml" />
+	</top>
+	<center>
+		<fx:include source="CreateWidget.fxml" />
+	</center>
+	<bottom>
+		<fx:include source="Statusbar.fxml" />
+	</bottom>
+</BorderPane>

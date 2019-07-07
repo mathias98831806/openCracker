@@ -1,0 +1,16 @@
+*
+{
+	-fx-background-color: #515d73;
+	-fx-text-fill: white;
+	-fx-font-family: "Segoe UI";
+}
+
+#checkUpdateButton
+{
+	-fx-border-color: white;
+	-fx-cursor: hand;
+}
+#checkUpdateButton:hover
+{
+	-fx-background-color: #738093;
+}

@@ -1,0 +1,43 @@
+*
+{
+	-fx-background-color: #515d73;
+	-fx-text-fill: white;
+	-fx-font-family: "Segoe UI";
+}
+
+.button
+{
+	-fx-font-size: 18px;
+	-fx-cursor: hand;
+}
+
+
+.button:hover
+{
+	-fx-background-color: #738093;
+}
+#appLabel 
+{
+	-fx-font-weight: bold;
+	-fx-font-size: 30px;
+}
+
+#homeButton
+{
+	-fx-graphic: url("../icones/home32.png");
+}
+
+#createButton
+{
+	/* -fx-graphic: url("../icones/addFolder32.png"); */
+}
+
+#explorerButton
+{
+	-fx-graphic: url("../icones/folder32.png");
+}
+
+#gethelpButton
+{
+	-fx-graphic: url("../icones/question_mark32.png");
+}
